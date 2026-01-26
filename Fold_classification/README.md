@@ -19,7 +19,7 @@ The benchmark focuses on comparing **structure alignment-based**, **structure re
 
 The primary metric used is:
 
-**Sensitivity up to the first false positive (S<sub>FP</sub>)**
+**Sensitivity up to the first false positive**
 
 - For each query protein, the search results are ranked according to the method-specific score.  
 - Sensitivity is computed as the fraction of true positive hits retrieved **before the first false positive** occurs.  
