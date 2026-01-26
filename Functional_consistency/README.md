@@ -27,3 +27,19 @@ Features:
 
 ```bash
 python compute_function_BMA.py --search_result search_result_file.tsv --output_dir figures
+```
+
+## Requirements
+
+- **Python version:** 3.8 or higher  
+- **Python packages:**  
+  - `numpy`  
+  - `pandas`  
+  - `matplotlib`  
+  - `seaborn`  
+  - `tqdm`  
+  - `goatools`  
+
+- **Data files:**  
+  - `GO.json` – Gene Ontology annotations for all proteins  
+  - `go-basic.obo` – Gene Ontology DAG file
