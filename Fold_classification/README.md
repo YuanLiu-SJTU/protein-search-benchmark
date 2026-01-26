@@ -4,7 +4,7 @@
 
 **Fold_classification** is a benchmark for evaluating protein fold-level similarity search methods on the **CATH-S20** dataset. This repository contains code and scripts used to perform **all-versus-all protein structure search** and compute the performance of different search paradigms.
 
-The benchmark focuses on comparing **structure alignment-based**, **structure representation-based**, and **sequence-based** search approaches, highlighting how predicted or experimental structure quality affects retrieval performance.
+The benchmark focuses on comparing **structure alignment-based**, **structure representation-based**, and **sequence-based** search approaches, highlighting how search paradigm affects retrieval performance.
 
 ---
 
@@ -38,11 +38,11 @@ The primary metric used is:
    - **Sequence-based**: TM-vec, PLMSearch, DHR  
 
 3. **Performance calculation**:  
-   For each query, compute the **mean GO semantic similarity of top-k hits** (or fold-level correctness) and **S<sub>FP</sub>**. Aggregate results across all queries to compare methods.
+   For each query, compute the **S<sub>FP</sub>**. Aggregate results across all queries to compare methods.
 
 4. **Analysis**:  
-   - Examine sensitivity trends for high-confidence vs low-confidence structures.  
-   - Identify which search paradigms are more robust to structural uncertainty.
+   - Examine sensitivity trends for each method.  
+   - Identify which search paradigms are more effcient on fold classification tasks.
 
 ## Usage
 
