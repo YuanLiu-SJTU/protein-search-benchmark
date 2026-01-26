@@ -1,4 +1,4 @@
-### lDDT Evaluation Script
+# lDDT Evaluation Script
 
 This Folder includes a modified version of the `lddt` protein distance score script originally developed by DeepMind Technologies and adapted by Martin Steinegger for alignment comparison.
 
