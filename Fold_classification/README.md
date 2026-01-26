@@ -33,12 +33,12 @@ The primary metric used is:
    Each protein in CATH-S20 is used as a query against the rest of the dataset.  
 
 2. **Methods evaluated**:  
-   - **Structure alignment-based**: GTalign, TM-align, Dali  
-   - **Structure representation-based**: GraSR, Foldseek, FoldExplorer  
-   - **Sequence-based**: TM-vec, PLMSearch, DHR  
+   - **Structure alignment-based**: GTalign, TM-align, Dali, Foldseek  
+   - **Representation-based**: GraSR, TMvec, PLMSearch, DHR, FoldExplorer  
+   - **Sequence alignment-based**: BLAST, jackhmmer, Diamond, MMseqs
 
 3. **Performance calculation**:  
-   For each query, compute the **S<sub>FP</sub>**. Aggregate results across all queries to compare methods.
+   For each query, compute the **Sensitivity up to the first false positive**. Aggregate results across all queries to compare methods.
 
 4. **Analysis**:  
    - Examine sensitivity trends for each method.  
