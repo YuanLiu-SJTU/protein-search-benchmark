@@ -14,6 +14,8 @@ Each task folder contains all necessary scripts and input files to reproduce the
 
 ## License
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 This repository is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 
 The source code, scripts, benchmark files, and associated materials are freely available for academic and other non-commercial research purposes. Commercial use is not permitted without prior written permission from the authors.
